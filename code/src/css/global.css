@@ -1,0 +1,47 @@
+a,
+p,
+span,
+h1,
+h2 {
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+body {
+    background-color: #000000;
+    background-image: url(../img/backgroundPicture.png);
+    background-size: cover;
+}
+
+header {
+    height: 5vw;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+
+nav {
+    width: 70vw;
+    height: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 0vw 1vw 4vw;
+    border-radius: .3vw;
+    background-image: url(../img/navOutline.png);
+    background-size: 100vw 5vw;
+}
+
+
+nav>a {
+    color: #7CB39E;
+    padding: 0 0.5vw;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+img {
+    /* pointer-events: none; */
+}

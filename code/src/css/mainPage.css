@@ -1,0 +1,270 @@
+h1,
+p {
+  color: #73AA9C;
+  margin: 0
+}
+
+.absolutePanel {
+  position: absolute;
+  width: 5.207vw;
+  margin: 0 0 0 1vw;
+  z-index: 2;
+}
+
+.absoluteArrow {
+  position: absolute;
+  width: 41.63vw;
+  margin: 24vw 0 0 0;
+  z-index: -1;
+}
+
+.starHolder {
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+  height: 4vw;
+  margin: -.5vw 0 0 5vw;
+}
+
+.starHolder>img {
+  z-index: 2;
+}
+
+.photo {
+  width: 40vw;
+  height: 50vw;
+  position: relative;
+  padding: 0 10vw 0 0;
+}
+
+.allikad {
+  width: 60vw;
+}
+
+.mainContent {
+  display: flex;
+}
+
+.mainText>h1 {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.4vw;
+  width: 30vw;
+}
+
+.mainText {
+  padding: 3vw 0 0 0;
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  height: 16vw;
+  align-items: center;
+  margin: 0 0 0 6vw;
+}
+
+.shadow {
+  color: #00000000;
+  -webkit-text-stroke: .035vw #73AA9C;
+}
+
+.shtrihcode {
+  margin: 0 0 0 8.5vw;
+  width: 30vw;
+}
+
+.arrowText {
+  width: 25vw;
+  margin: 1vw 0 0 7vw;
+  color: #7CB39E;
+  padding: 0 0.5vw;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.decor {
+  position: absolute;
+  margin: -.18vw 44vw;
+  width: 2.33vw;
+}
+
+.photo>img {
+  position: absolute;
+  width: 35vw;
+}
+
+.innerImg {
+  margin: 2vw 0 0 -2vw;
+}
+
+.decorBr {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.decorLines>img {
+  width: 40vw;
+}
+
+.teemad {
+  display: flex;
+  margin: 1.6vw 0 1.6vw 8vw;
+}
+
+.teemadHn {
+  display: flex;
+  flex-direction: column;
+  margin: 3vw 0;
+}
+
+.graafika {
+  background-image: url(../img/GraafikaCard.png);
+  height: 30vw;
+  width: 25vw;
+  background-repeat: no-repeat;
+  border-radius: 2vw;
+}
+
+.kursed {
+  background-image: url(../img/kursusedCard.png);
+  background-repeat: no-repeat;
+}
+
+.tehisintellekt {
+  background-image: url(../img/TICard.png);
+  background-repeat: no-repeat;
+  width: 19.74vw;
+}
+
+.math {
+  background-image: url(../img/math.png);
+  background-repeat: no-repeat;
+  width: 19.74vw;
+}
+
+.doc {
+  background-image: url(../img/dokumCard.png);
+  background-repeat: no-repeat;
+}
+
+.quad {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.quad a {
+  height: 19.6vw;
+  margin: 1.5vw;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.decorCode img {
+  width: 44.5vw;
+}
+
+.starHandler img {
+  width: 6.96vw;
+  margin: 1vw 0;
+}
+
+.w {
+  width: 25.67vw;
+}
+
+.teemadText>p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.4vw;
+  width: 22vw;
+  line-height: 2.9vw;
+}
+
+.graafika,
+.kursed,
+.tehisintellekt,
+.math,
+.doc {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.brCode {
+  width: 43vw;
+}
+
+.brCode2 {
+  width: 28vw;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 3vw 0;
+}
+
+footer img {
+  height: 50vw;
+}
+
+.slice {
+  margin-left: -7.5vw;
+}
+
+.footerText {
+  color: #73AA9C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 1vw;
+}
+
+.footerText h2 {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.4vw;
+  width: 40vw;
+  margin: 0;
+}
+
+.footerText p {
+  width: 30vw;
+  margin: 3vw 0;
+  color: #7CB39E;
+  padding: 0 0.5vw;
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.3vw;
+}
+
+.beautyBr {
+  width: 45vw;
+  height: .25vw;
+}
+
+.roadmap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .5vw;
+  background-color: #7CB39E;
+  width: 9vw;
+  height: 2.5vw;
+  margin-right: 21vw;
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1vw;
+  color: #382847;
+  margin-bottom: 3vw;
+}

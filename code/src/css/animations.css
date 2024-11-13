@@ -1,0 +1,15 @@
+a {
+    transition: color 0.4s ease, color 0.4s ease;
+}
+
+a:hover {
+    color: rgb(102, 88, 255);
+}
+
+.teemad a {
+    transition: all 0.4s ease, color 0.4s ease;
+}
+
+.teemad a:hover {
+    box-shadow: 1vw .4vw 1vw rgba(132, 0, 209, 0.368);
+}
