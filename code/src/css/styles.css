@@ -130,6 +130,7 @@ p {
     max-width: 1000px;
     padding: 0 100px;
     margin: 0 auto;
+    display: flex;
 }
 
 .kursused{
@@ -153,8 +154,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Центрируем карточки */
-    gap: 2vw; /* Расстояние между карточками */
-    padding: 2vw;
+    gap: 1vw; /* Расстояние между карточками */
+    padding: 1vw;
 }
 
 /* Карточка */
@@ -165,7 +166,7 @@ p {
     border-radius: 1vw; /* Скруглённые углы */
     padding: 2vw; /* Внутренние отступы внутри карточки */
     font-family: "Jura", sans-serif;
-    color: #FFF0EA; /* Белый текст */
+    color: #E27B57; /* Белый текст */
     display: flex; /* Flexbox для выравнивания внутри карточки */
     flex-direction: column;
     align-items: center; /* Центрирование контента */
@@ -178,6 +179,7 @@ p {
     border: 0.3vw solid #E27B57; /* Уменьшите ширину границы */
     border-radius: 0.8vw; /* Уменьшите скругление */
     margin: 1vw; /* Уменьшите отступы между карточками */
+    display: flex;
 }
 
 /* Карточка: изображение */
@@ -217,3 +219,77 @@ p {
     background-color: #FFF0EA;
     color: #E27B57;
 }
+
+.skull {
+    width: 4vw; 
+    height: 8vw; 
+    margin: 0; 
+}
+
+.skull1 {
+    width: 4vw; 
+    height: 8vw; 
+    margin: 0; 
+    transform: scaleY(-1);
+    
+}
+
+.card-container3 {
+    display: flex;
+    justify-content: space-around;
+    gap: 2vw;
+    flex-wrap: wrap; /* Wrap cards if the screen is smaller */
+    margin-top: 2vw;
+}
+
+.card3 {
+    background-color: transparent; /* Transparent background */
+    text-align: left;
+    font-family: "Jura", sans-serif;
+    color: #E27B57;
+    padding: 1.5vw;
+    width: 25vw; /* Adjust the width of the card */
+    color: #FFF0EA; /* Text color */
+}
+
+.card3 h3 {
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    color: #E27B57; /* Title color */
+    font-family: "Jura", sans-serif;
+}
+
+.card3 p {
+    font-size: 1vw;
+    line-height: 1.5;
+    margin-bottom: 1.5vw;
+}
+
+.card3 a {
+    text-decoration: none;
+    background-color: #E27B57; /* Button background */
+    color: #000; /* Button text color */
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw; /* Rounded corners for the button */
+    font-size: 1vw;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card3 a:hover {
+    background-color: #FFF0EA;
+    color: #E27B57; /* Button hover effect */
+}
+
+.end-img {
+    width: 100%; /* Pildi laius ulatub üle kogu lehe */
+    height: auto; /* Säilitab pildi proportsioonid */
+    position: absolute; /* Asetab pildi absoluutse positsiooni */
+    bottom: 0; /* Seob pildi lehe allosaga */
+    left: 0; /* Asetab pildi vasakule */
+    z-index: -1; /* Paneb pildi taustale */
+    opacity: 0.7; /* Lisab kergelt läbipaistva efekti */
+}
+
+
+
