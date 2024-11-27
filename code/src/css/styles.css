@@ -207,7 +207,7 @@ p {
 .card-button2 {
     text-decoration: none;
     background-color: #E27B57;
-    color: #000;
+    color: #0F1A27;
     padding: 0.5vw 1vw;
     border-radius: 0.5vw;
     font-size: 1vw;
@@ -265,31 +265,24 @@ p {
     margin-bottom: 1.5vw;
 }
 
-.card3 a {
-    text-decoration: none;
-    background-color: #E27B57; /* Button background */
-    color: #000; /* Button text color */
-    padding: 0.5vw 1vw;
-    border-radius: 0.5vw; /* Rounded corners for the button */
-    font-size: 1vw;
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
+
 .card-button3 {
     text-decoration: none;
     background-color: #E27B57;
-    color: #000;
+    color: #0F1A27;
     padding: 0.5vw 1vw;
     border-radius: 0.5vw;
     font-size: 1vw;
     font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .card-button3:hover {
     background-color: #FFF0EA;
     color: #E27B57;
 }
+
+
 
 .end {
         width: 110vw; /* Laiendab pildi kogu ekraani laiuses */
