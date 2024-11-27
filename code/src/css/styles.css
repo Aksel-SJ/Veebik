@@ -86,7 +86,7 @@ p {
     border-radius: 0.5vw;
     box-shadow: 0px 0.5vw 1vw rgba(0, 0, 0, 0.3);
     font-family: "Jura", sans-serif;
-    color: #000000;
+    color: #0F1A27;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -145,4 +145,75 @@ p {
     gap: 2vw; /* Space between cards */
     justify-content: center; /* Center the grid in the container */
     padding: 2vw; /* Padding around the grid */
+}
+
+/* Основной контейнер для карточек */
+.card-container2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Центрируем карточки */
+    gap: 2vw; /* Расстояние между карточками */
+    padding: 2vw;
+}
+
+/* Карточка */
+.card2 {
+    position: relative;
+    background-color: hsla(0, 0%, 0%, 0.3);
+    border: 0.5vw solid #E27B57; /* Оранжевая граница */
+    border-radius: 1vw; /* Скруглённые углы */
+    padding: 2vw; /* Внутренние отступы внутри карточки */
+    font-family: "Jura", sans-serif;
+    color: #FFF0EA; /* Белый текст */
+    display: flex; /* Flexbox для выравнивания внутри карточки */
+    flex-direction: column;
+    align-items: center; /* Центрирование контента */
+    text-align: center; /* Центрирование текста */
+    overflow: hidden; /* Убираем лишний контент */
+    height: 30vw; /* Автоматическая высота */
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.5); /* Тень */
+    width: 200px; /* Установите фиксированную ширину */
+    padding: 1vw; /* Уменьшите внутренние отступы */
+    border: 0.3vw solid #E27B57; /* Уменьшите ширину границы */
+    border-radius: 0.8vw; /* Уменьшите скругление */
+    margin: 1vw; /* Уменьшите отступы между карточками */
+}
+
+/* Карточка: изображение */
+.card-header2 img {
+    width: 10vw; /* Уменьшите размер изображения */
+    height: auto;
+    margin-bottom: 1vw;
+}
+
+/* Карточка: текст */
+.card-content2 h3 {
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+    color: #E27B57;
+}
+
+.card-content2 p {
+    font-size: 0.9vw;
+    line-height: 1.5;
+    margin-bottom: 1.5vw;
+    color: #E27B57;
+}
+
+/* Кнопка */
+.card-button2 {
+    text-decoration: none;
+    background-color: #E27B57;
+    color: #000;
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card-button2:hover {
+    background-color: #FFF0EA;
+    color: #E27B57;
 }
