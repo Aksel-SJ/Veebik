@@ -53,13 +53,14 @@ p {
 }
 
 .mainText {
-    display: flex; /* Paigutab elemendid ühele reale */
-    align-items: center; /* Joondab elemendid vertikaalselt keskele */
-    justify-content: space-between; /* Asetab elemendid äärtesse */
-    width: 100%; /* Laiendab kogu rea ulatuses */
-    padding: 0; /* Eemaldab võimalikud sisemised vahed */
-    margin: 0; /* Eemaldab välised vahed */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    width: 100%; 
+    padding: 0; 
+    margin: 0; 
     padding: 3vw 0 0 0
+    
 }
 
 .mainText h1 {
@@ -67,14 +68,14 @@ p {
     font-weight: 400;
     font-size: 3.4vw;
     margin: 0;
-    color: #E27B57; /* Teksti värv */
+    color: #E27B57;
 
 }
 
 .shtrihcode {
-    width: 40vw; /* Määrab штрихкоду laiuse */
-    height: 4vw; /* Hoiab proportsioonid */
-    margin: 0; /* Eemaldab välised vahed */
+    width: 40vw; 
+    height: 4vw; 
+    margin: 0; 
 }
 
 
@@ -90,6 +91,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     height: auto;
+    margin-bottom: 5vw;
 }
 
 .card h3 {
@@ -123,6 +125,24 @@ p {
     background-color: #FFF0EA;
     color: #E27B57;
 }
+.grid-conteiner{
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 100px;
+    margin: 0 auto;
+}
 
+.kursused{
+    width: 100%;
+    display: grid;
+    margin-bottom: 5vw ;
 
-
+}
+.card-container {
+    width: 100%; /* Full width of the container */
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Static 4 columns */
+    gap: 2vw; /* Space between cards */
+    justify-content: center; /* Center the grid in the container */
+    padding: 2vw; /* Padding around the grid */
+}
