@@ -148,48 +148,48 @@ p {
     padding: 2vw; /* Padding around the grid */
 }
 
-/* Основной контейнер для карточек */
+
 .card-container2 {
     width: 100%;
     flex-wrap: wrap;
-    justify-content: center; /* Центрируем карточки */
-    gap: 1vw; /* Расстояние между карточками */
+    justify-content: center; 
+    gap: 1vw; 
     padding: 1vw;
     display: flex;
 }
 
-/* Карточка */
+
 .card2 {
     position: relative;
     background-color: hsla(0, 0%, 0%, 0.3);
-    border: 0.5vw solid #E27B57; /* Оранжевая граница */
-    border-radius: 1vw; /* Скруглённые углы */
-    padding: 2vw; /* Внутренние отступы внутри карточки */
+    border: 0.5vw solid #E27B57; 
+    border-radius: 1vw; 
+    padding: 2vw; 
     font-family: "Jura", sans-serif;
-    color: #E27B57; /* Белый текст */
-    display: flex; /* Flexbox для выравнивания внутри карточки */
+    color: #E27B57; 
+    display: flex; 
     flex-direction: column;
-    align-items: center; /* Центрирование контента */
-    text-align: center; /* Центрирование текста */
-    overflow: hidden; /* Убираем лишний контент */
-    height: 30vw; /* Автоматическая высота */
-    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.5); /* Тень */
-    width: 200px; /* Установите фиксированную ширину */
-    padding: 1vw; /* Уменьшите внутренние отступы */
-    border: 0.3vw solid #E27B57; /* Уменьшите ширину границы */
-    border-radius: 0.8vw; /* Уменьшите скругление */
-    margin: 3vw; /* Уменьшите отступы между карточками */
+    align-items: center; 
+    text-align: center; 
+    overflow: hidden; 
+    height: 30vw; 
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.5);
+    width: 200px; /
+    padding: 1vw; 
+    border: 0.3vw solid #E27B57; 
+    border-radius: 0.8vw; 
+    margin: 3vw; 
     display: flex;
 }
 
-/* Карточка: изображение */
+
 .card-header2 img {
-    width: 10vw; /* Уменьшите размер изображения */
+    width: 10vw; 
     height: auto;
     margin-bottom: 1vw;
 }
 
-/* Карточка: текст */
+
 .card-content2 h3 {
     font-size: 1.2vw;
     margin-bottom: 1vw;
