@@ -1,1 +1,228 @@
+body {
+    background-repeat: no-repeat;
+}
 
+.courses {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardsHandler {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.course-content {
+    flex: 1;
+    color: #121212;
+}
+
+.course-content h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.course-content p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    color: #000;
+}
+
+.card {
+    display: flex;
+    padding: 4vw 2vw;
+    margin: 1vw;
+}
+
+.nonSelect .cardInfo {
+    background-color: #E27B57;
+}
+
+.mirrored {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mirrored .cardInfo {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 20vw;
+    margin-top: .03vw;
+}
+
+.mirrored .outer {
+    transform: rotate(90deg);
+}
+
+.cardDecor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 19.4vw;
+    height: 20vw;
+    z-index: -1;
+}
+
+.courses h1 {
+    padding: 1vw;
+    color: #E27B57;
+    font-family: "Zen Dots", sans-serif;
+}
+
+.coursesHeader {
+    width: 97vw;
+    margin: 2vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coursesHeader img {
+    height: 3.5vw;
+    margin: 0 -1vw 0 0;
+}
+
+.logo {
+    width: 15vw;
+}
+
+.outer {
+    width: 20vw;
+}
+
+.cardDecor img {
+    position: absolute;
+}
+
+.cardInfo {
+    margin-top: -1.2vw;
+    width: 20vw;
+    height: 21.5vw;
+    background-color: #E27B57;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: space-around;
+}
+
+.cardInfo * {
+    margin-left: 2vw;
+    color: #0F1A27;
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+}
+
+.navBtn {
+    background-color: #0F1A27;
+    color: #E27B57;
+    width: 8vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+
+}
+
+.card2 .logo {
+    width: 15vw;
+}
+
+.card2 .python {
+    width: 21vw;
+}
+
+.card-container2 {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vw;
+    padding: 1vw 0;
+    display: flex;
+}
+
+
+.card2 {
+    background-color: hsla(0, 0%, 0%, 0.3);
+    padding: .3vw;
+    font-family: "Jura", sans-serif;
+    color: #E27B57;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    overflow: hidden;
+    height: 40vw;
+    width: 20vw;
+    margin: 5vw 1vw;
+    /* border: 1px solid red; */
+}
+
+.card2Outer {
+    position: absolute;
+    width: 20vw;
+}
+
+
+.card-header2 img {
+    width: 10vw;
+    height: auto;
+    margin-bottom: 1vw;
+}
+
+
+.card-content2 h3 {
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+    color: #E27B57;
+}
+
+.card-content2 p {
+    font-size: 0.9vw;
+    line-height: 1.5;
+    margin-bottom: 1.5vw;
+    color: #E27B57;
+}
+
+/* Кнопка */
+.card-button2 {
+    text-decoration: none;
+    background-color: #E27B57;
+    color: #0F1A27;
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card-button2:hover {
+    background-color: #FFF0EA;
+    color: #E27B57;
+}
+
+@media (max-width: 768px) {
+    .course-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
