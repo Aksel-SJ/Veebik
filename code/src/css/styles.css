@@ -17,6 +17,7 @@ body {
     background-size: cover;
 }
 
+
 header {
     height: 5vw;
     align-items: center;
@@ -108,13 +109,13 @@ p {
 }
 
 .skull {
-    width: 4vw;
+    width: 3vw;
     height: 8vw;
     margin: 0;
 }
 
 .skull1 {
-    width: 4vw;
+    width: 3vw;
     height: 8vw;
     margin: 0;
     transform: scaleY(-1);
@@ -144,7 +145,7 @@ p {
 }
 
 .card3 h3 {
-    font-size: 1.5vw;
+    font-size: 2vw;
     margin-bottom: 1vw;
     color: #E27B57;
     /* Title color */
@@ -164,9 +165,9 @@ p {
     color: #0F1A27;
     padding: 0.5vw 1vw;
     border-radius: 0.5vw;
-    font-size: 1vw;
-    font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
 }
 
 .card-button3:hover {
