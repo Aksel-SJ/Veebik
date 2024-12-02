@@ -25,6 +25,7 @@ body {
     width: 100%; /* Ensure the section uses the full width of the viewport */
     margin: 0 auto; /* Centers the content */
     padding: 0;
+    margin-top: -10vw;
 }
 
 .maingraafika {
@@ -67,7 +68,7 @@ nav>a {
     width: 35vw;
     height: auto;
     align-items: flex-end;
-    margin: 0 6vw 0 69vw;
+    margin: 0 6vw 0 65vw;
   }
 
 .mainText>h1 {
@@ -96,14 +97,25 @@ nav>a {
     -webkit-text-stroke: .035vw #FDF2D4;
   }
 
+  .mainText img {
+    height: 4vw;
+    width: 60vw;
+    margin: 0 50vw 0 0;
+    margin-top: -6vw;
+    margin-right: 40vw;
+    margin-bottom: 2vw
+}
+
   .coursesHeader {
     width: 20vw;
     margin: 2vw 0;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    margin-left: 3vw;
     text-align: right;
   }
+
 
 
 
@@ -113,7 +125,6 @@ nav>a {
     font-size: 2vw;
     margin: 0;
     color: #FDF2D4;
-    text-align: right
 
 }
 
@@ -122,7 +133,8 @@ nav>a {
     margin: 2vw 0;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    margin-left: 3vw;
     text-align: right;
   }
 
@@ -231,6 +243,7 @@ nav>a {
     font-size: 3vw;
     margin: 0;
     color: #FDF2D4;
+    margin-right: 5.1vw;
 
 }
 
