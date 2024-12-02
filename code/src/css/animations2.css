@@ -1,0 +1,9 @@
+a {
+    transition: color 0.4s ease, color 0.4s ease;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FDF2D4
+    
+}

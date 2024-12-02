@@ -7,6 +7,11 @@ h2 {
     font-size: 1vw;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-color: #000000;
     background-image: url(../img/background3.png);

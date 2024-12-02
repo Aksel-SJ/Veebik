@@ -3,6 +3,9 @@ p,
 span,
 h1,
 
+html {
+    scroll-behavior: smooth;
+}
 
 
 h2 {
