@@ -190,16 +190,16 @@ body {
     height: 40vw;
     width: 20vw;
     margin: 5vw 1vw;
-    /* border: 1px solid red; */
+    /* 1px paksune punane täisjooneline ääris; */
 }
 
 .card-content2 {
-    flex: 1; /* Allow the content area to grow to fill space */
+    flex: 1; /* Luba sisu alal kasvada, et täita ruumi */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Align text to the top */
-    align-items: center; /* Center the text horizontally */
-    margin-top: 2vw; /* Add space above the text */
+    justify-content: flex-start; /* Joonda tekst üles */
+    align-items: center; /* Joonda tekst horisontaalselt keskpunkti */
+    margin-top: 2vw; /* Lisa tekstist ülespoole vahe */
     margin-bottom: 1vw; 
 }
 
@@ -234,7 +234,7 @@ body {
     padding: 2vw;
 }
 
-/* Кнопка */
+/* Nupp */
 .card-button2 {
     text-decoration: none;
     background-color: #E27B57;
@@ -243,8 +243,8 @@ body {
     border-radius: 0.5vw;
     font-family: "Zen Dots", sans-serif;
     font-weight: 400;
-    margin-top: auto; /* Push the button to the bottom of the card */
-    align-self: center; /* Center the button horizontally */
+    margin-top: auto; /* Aseta nupp kaardi alumisse osasse */
+    align-self: center; /* Joonda nupp horisontaalselt keskele */
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
