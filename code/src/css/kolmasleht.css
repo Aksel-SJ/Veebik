@@ -11,6 +11,24 @@ body {
     background-color: #000000;
     background-image: url(../img/background3.png);
     background-size: cover;
+    margin: 0;
+    overflow-x: hidden;
+    background-repeat: no-repeat; /* Prevent horizontal scrolling */
+}
+
+.tehisintellekt {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%; /* Ensure the section uses the full width of the viewport */
+    margin: 0 auto; /* Centers the content */
+    padding: 0;
+}
+
+.maingraafika {
+    overflow: hidden; /* Ensures content stays within the section */
 }
 
 header {
@@ -186,4 +204,121 @@ nav>a {
 .card-button4:hover {
     background-color: #DBA101;
     color: #320303;
+}
+
+.card {
+    display: flex;
+    padding: 4vw 2vw;
+    margin: 1vw;
+}
+
+.coursesHeader3 {
+    width: 97vw;
+    margin: 2vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coursesHeader3 img {
+    height: 3.5vw;
+    margin: 0 0 0 0;
+}
+
+.coursesHeader3 h1 {
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-size: 3vw;
+    margin: 0;
+    color: #FDF2D4;
+
+}
+
+.cardsHandler3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nonSelect .cardInfo {
+    background-color: #FDF2D4;
+}
+
+.mirrored {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mirrored .cardInfo {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 20vw;
+    margin-top: .03vw;
+}
+
+.mirrored .outer {
+    transform: rotate(90deg);
+}
+
+.cardDecor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 19.4vw;
+    height: 20vw;
+    z-index: -1;
+}
+
+.logo {
+    width: 15vw;
+}
+
+.outer {
+    width: 20vw;
+}
+
+.cardDecor img {
+    position: absolute;
+}
+
+.cardInfo {
+    margin-top: -1.2vw;
+    width: 20vw;
+    height: 21.5vw;
+    background-color: #FDF2D4;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: space-around;
+}
+
+.cardInfo * {
+    margin-left: 2vw;
+    color: #320303;
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+}
+
+.navBtn {
+    text-decoration: none;
+    background-color: #320303;
+    color: #FDF2D4;
+    width: 8vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navBtn:hover {
+    background-color: #DBA101;
+    color: #0F1A27;
 }
