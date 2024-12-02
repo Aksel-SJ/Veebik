@@ -30,13 +30,11 @@ See on link mei vebelehele
 
 Projekti failistruktuur ja vastav jaotus:
 
-- **/public/** – Staatilised failid nagu pildid ja ikoonid.
-- **/src/** – Põhikood (sh komponendid ja stiilifailid).
-- **/styles/** – CSS/SASS failid (iga fail vastutab kindla lehe või komponendi stiili eest, seletus allpool).
-- **server.js** – Backendi põhifail, kui kasutatakse serverit.
 - **code/** – Põhikood, kus asuvad kaustad `pages` ja `src`.
+- **disain/** – link Figmase ja vebilehe pilt
 - **/pages/** – Teise ja kolmanda lehe kood.
 - **/src/** – CSS failid, JavaScripti failid ja pildid.
+- **/img/** - pildid disaini jaoks
 
 ### CSS failide jaotus
 - **Animations.css** – Sisaldab animatsioonide määratlusi.
