@@ -15,3 +15,15 @@ a:hover {
 .teemad a:hover {
     box-shadow: 1vw .4vw 1vw rgba(132, 0, 209, 0.368);
 }
+
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+

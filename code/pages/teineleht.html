@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kasulikud Allikad</title>
     <link rel="stylesheet" href="../src/css/styles.css">
+    <script src="../src/css/animations.js" defer></script>
     <link rel="stylesheet" href="../src/css/style2.css">
+    <link rel="stylesheet" href="../src/css/java.css">
+    <link rel="stylesheet" href="../src/css/animations.css">
     <link rel="stylesheet" href="../src/css/animations2.css">
     <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Zen+Dots&display=swap"
         rel="stylesheet">
+        
 </head>
 
 <body>
@@ -24,12 +28,12 @@
         </nav>
     </header>
     <main>
-        <section id="kursused" class="courses">
+        <section id="kursused" class="courses hidden">
             <div class="coursesHeader">
                 <h1>KURSUSED ja ARTIKLID</h1>
                 <img src="../src/img/shtrihcode2.1.png" alt="">
             </div>
-            <div class="cardsHandler">
+            <div class="cardsHandler hidden">
                 <div class="card selected">
                     <div class="cardDecor">
                         <img src="../src/img/mit-logo.png" alt="MIT OpenCourseWare Logo" class="logo"><img
@@ -43,19 +47,19 @@
                         <a href="https://ocw.mit.edu/search/?q=programing" class="navBtn">järgi linki</a>
                     </div>
                 </div>
-                <div class="card nonSelect">
+                <div class="card nonSelect hidden">
                     <div class="cardDecor">
                         <img src="..\src\img\progetiiger-logo.png" alt="ProgeTiiger Logo" class="logo"><img
                             src=" ../src/img/card_outer.png" alt="outer" class="outer">
                     </div>
-                    <div class="cardInfo">
+                    <div class="cardInfo hidden">
                         <h3>PROGETIIGER</h3>
                         <p>Eesti haridusprogramm, mis toetab algajatele suunatud tehnoloogia- ja programmeerimisõpet. 
                             Programm pakub õpetajatele koolitusi ja materjale, et muuta digioskuste omandamine lihtsamaks.</p>
                         <a href="https://progetiiger.ee/" class="navBtn">järgi linki</a>
                     </div>
                 </div>
-                <div class="card nonSelect mirrored">
+                <div class="card nonSelect mirrored hidden">
                     <div class="cardDecor">
                         <img src="../src/img/freecodecamp-logo.png" alt="freeCodeCamp Logo" class="logo"><img
                             src=" ../src/img/card_outer.png" alt="outer" class="outer">
@@ -68,12 +72,12 @@
                         <a href="https://www.freecodecamp.org/" class="navBtn">järgi linki</a>
                     </div>
                 </div>
-                <div class="card nonSelect mirrored">
+                <div class="card nonSelect mirrored hidden">
                     <div class="cardDecor">
                         <img src="../src/img/haridusportaal-logo.png" alt="Haridusportaal Logo" class="logo"><img
                             src=" ../src/img/card_outer.png" alt="outer" class="outer">
                     </div>
-                    <div class="cardInfo">
+                    <div class="cardInfo hidden">
                         <h3>HARIDUSPORTAAL</h3>
                         <p>Platvorm eestikeelsete kursuste jaoks. Palju tasuta kursused. 
                             Siit võib leida teemasid disaini, programmeerimise ja tehnoloogia vallas. 
@@ -86,7 +90,7 @@
 
         </section>
 
-        <div id="dokumentatsioonid" class="dokumentatsioon">
+        <div id="dokumentatsioonid" class="dokumentatsioon hidden">
             <div class="coursesHeader">
                 <img src="../src/img/decorlines.png" alt="code" class="shtrihcode">
                 <h1>DOKUMENTATSIOONID</h1>
@@ -146,7 +150,7 @@
             </div>
         </div>
 
-        <div id="math" class="math">
+        <div id="math" class="math hidden">
             <div class="coursesHeader">
                 <h1>MATH</h1>
                 <img src="../src/img/skull.png" alt="skull" class="skull">
@@ -171,7 +175,7 @@
                     <p>Photomath on mobiilirakendus. Analüüsib ülesandeid ja pakub sammu-sammult lahendusi.</p>
                     <a href="https://photomath.com/" class="card-button3">järgi linki</a>
                 </div>
-                <!-- Add more cards similarly -->
+                
             </div>
         </div>
         <img src="../src/img/end-img.png" alt="end" class="end">
