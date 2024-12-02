@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-image: url(../img/background.png);
     background-size: cover;
@@ -32,6 +33,52 @@ nav>a {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+=======
+a,
+p,
+span,
+h1,
+h2 {
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: #000000;
+    background-image: url(../img/background3.png);
+    background-size: cover;
+    margin: 0;
+    overflow-x: hidden;
+    background-repeat: no-repeat; /* Prevent horizontal scrolling */
+}
+
+.tehisintellekt {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%; /* Ensure the section uses the full width of the viewport */
+    margin: 0 auto; /* Centers the content */
+    padding: 0;
+    margin-top: -10vw;
+}
+
+.maingraafika {
+    overflow: hidden; /* Ensures content stays within the section */
+}
+
+header {
+    height: 5vw;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+>>>>>>> mustand
 }
 
 nav {
@@ -42,6 +89,325 @@ nav {
     align-items: center;
     padding: 1vw 0vw 1vw 4vw;
     border-radius: .3vw;
+<<<<<<< HEAD
     background-image: url(../img/nav.Outline2.png);
     background-size: 100vw 5vw;
 }
+=======
+    background-image: url(../img/navOutline3.png);
+    background-size: 100vw 5vw;
+}
+
+
+nav>a {
+    color: #FEF3D5;
+    padding: 0 0.5vw;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.mainText {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: auto;
+    align-items: flex-end;
+    margin: 0 6vw 0 65vw;
+  }
+
+.mainText>h1 {
+    color: #FEF3D5;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+    width: 30vw;
+    margin-bottom: -3vw; 
+  }
+  
+
+  .mainText>h2 {
+    margin-bottom: 0.2vw;
+    color: #00000000;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+    width: 30vw;
+  }
+
+  .shadow {
+    color: #00000000;
+    -webkit-text-stroke: .035vw #FDF2D4;
+  }
+
+  .mainText img {
+    height: 4vw;
+    width: 60vw;
+    margin: 0 50vw 0 0;
+    margin-top: -6vw;
+    margin-right: 40vw;
+    margin-bottom: 2vw
+}
+
+  .coursesHeader {
+    width: 20vw;
+    margin: 2vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 3vw;
+    text-align: right;
+  }
+
+
+
+
+.coursesHeader h1 {
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    margin: 0;
+    color: #FDF2D4;
+
+}
+
+.coursesHeader2 {
+    width: 24vw;
+    margin: 2vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 3vw;
+    text-align: right;
+  }
+
+
+
+.coursesHeader2 h1 {
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    margin: 0;
+    color: #FDF2D4;
+    text-align: right
+
+}
+
+
+
+
+.cardsHandler {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2vw;
+    padding: 2vw;
+    margin-bottom: 15vw; 
+    margin-right: 15vw;
+}
+
+
+
+
+.card4 {
+    background-color: #FDF2D4;
+    color: #320303;
+    font-family: "Jura", sans-serif;;
+    width: 20vw;
+    height: 15vw;
+    padding: 1.5vw;
+    border-radius: 0.7vw;
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: left;
+}
+
+.card4 h3 {
+    font-size: 1.5vw;
+    color: #320303;
+    margin-bottom: 1vw;
+}
+
+.card4 p {
+    font-size: 1vw;
+    line-height: 1.5;
+    color: #320303;
+    margin-bottom: 1.5vw;
+}
+
+.card-button4 {
+    text-decoration: none;
+    background-color: #320303;
+    color: #FDF2D4;
+    width: 8vw;
+    height: 2vw;
+    border-radius: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    padding: 0.5vw 1.5vw;
+    position: absolute; /* Allows the button to be positioned at a specific location */
+    bottom: 2vw; /* Moves the button to the bottom of the card */
+    left: 30%; /* Centers the button horizontally */
+    transform: translateX(-50%);
+    transition: background-color 0.3s ease;
+
+}
+
+.card-button4:hover {
+    background-color: #DBA101;
+    color: #320303;
+}
+
+.card {
+    display: flex;
+    padding: 4vw 2vw;
+    margin: 1vw;
+}
+
+.coursesHeader3 {
+    width: 97vw;
+    margin: 2vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coursesHeader3 img {
+    height: 3.5vw;
+    margin: 0 0 0 0;
+}
+
+.coursesHeader3 h1 {
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-size: 3vw;
+    margin: 0;
+    color: #FDF2D4;
+    margin-right: 5.1vw;
+
+}
+
+.cardsHandler3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nonSelect .cardInfo {
+    background-color: #FDF2D4;
+}
+
+.mirrored {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mirrored .cardInfo {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 20vw;
+    margin-top: .03vw;
+}
+
+.mirrored .outer {
+    transform: rotate(90deg);
+}
+
+.cardDecor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 19.4vw;
+    height: 20vw;
+    z-index: -1;
+}
+
+.logo {
+    width: 15vw;
+}
+
+.outer {
+    width: 20vw;
+}
+
+.cardDecor img {
+    position: absolute;
+}
+
+.cardInfo {
+    margin-top: -1.2vw;
+    width: 20vw;
+    height: 21.5vw;
+    background-color: #FDF2D4;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: space-around;
+}
+
+.cardInfo h3 {
+    margin-left: 2vw;
+    margin-bottom: -1vw;
+    font-size: 2vw;
+    color: #320303;
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+}
+
+.cardInfo p {
+    margin-left: 2vw;
+    font-size: 1vw;
+    color: #320303;
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+}
+
+
+.navBtn {
+    margin-left: 2vw;
+    text-decoration: none;
+    background-color: #320303;
+    color: #FDF2D4;
+    width: 8vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navBtn:hover {
+    background-color: #DBA101;
+    color: #0F1A27;
+}
+
+.end {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: -30vw;
+    display: flex;
+}
+
+* {
+    /* border: 5px solid red; */
+}
+
+img {
+    pointer-events: none;
+}
+>>>>>>> mustand

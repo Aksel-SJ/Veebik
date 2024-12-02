@@ -12,17 +12,19 @@
     <link rel="stylesheet" href="./src/css/global.css">
     <link rel="stylesheet" href="./src/css/mainPage.css">
     <link rel="stylesheet" href="./src/css/animations.css">
+    <script src="./src/js/animations.js"> defer</script>
+
     <title>Landing Page</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="#">KURSUSED ja ARTIKLID</a>
-            <a href="#">DOKUMENTATSIOONID</a>
-            <a href="#">GRAAFIKA</a>
-            <a href="#">MATH</a>
-            <a href="#">TEHIS INTELLEKT</a>
+            <a href="pages/teineleht.html#kursused">KURSUSED ja ARTIKLID</a>
+            <a href="pages/teineleht.html#dokumentatsioonid">DOKUMENTATSIOONID</a>
+            <a href="pages/teineleht.html#math">MATH</a>
+            <a href="pages/kolmasleht.html#graafika">GRAAFIKA</a>
+            <a href="pages/teineleht.html#tehisintellekt">TEHIS INTELLEKT</a>
         </nav>
     </header>
     <main>
@@ -32,33 +34,32 @@
                 <img src="./src/img/panel.png" alt="panel" class="absolutePanel"><img src="./src/img/arrow.png"
                     alt="arrow" class="absoluteArrow">
                 <img src="./src/img/EVELINARENAMEIT.png" alt="arrow" class="decor">
-                <div class="mainText">
+                <div class="mainText hidden">
                     <h1>KASULIKUD ALLIKAD </h1>
                     <h1 class="shadow">KASULIKUD ALLIKAD </h1>
                 </div>
                 <img src="./src/img/shtrihcode.png" alt="code" class="shtrihcode">
-                <div class="starHolder">
+                <div class="starHolder hidden">
                     <img src="./src/img/vectorStar.png" alt="star">
                     <img src="./src/img/vectorStar.png" alt="star">
                     <img src="./src/img/vectorStar.png" alt="star">
                     <img src="./src/img/vectorStar.png" alt="star">
                 </div>
-                <p class="arrowText">Sellel lehel leiate kasulikke ressursse algajatele programmeerijatele. Lisaks
+                <p class="arrowText hidden">Sellel lehel leiate kasulikke ressursse algajatele programmeerijatele. Lisaks
                     programmeerimisele on siin
                     viiteid materjalidele veebilehtede ja müngu loomise kohta, matemaatikakalkulaatorid ja kasulikud
                     tööriistad tehisintellekti põhjal.</p>
             </div>
-            <div class="photo">
+            <div class="photo hidden">
                 <img src="./src/img/putplePicture.png" alt="purple" class="innerImg"><img src="./src/img/mainGrid.png"
                     alt="grid">
             </div>
-            <!-- <a href="https://shorturl.at/RuDIV">Diskreetne matemaatika</a> -->
         </div>
-        <div class="decorBr">
+        <div class="decorBr hidden">
             <div class="decorCode"><img src="./src/img/shtrihcode1.png" alt="code"></div>
             <div class="decorLines"><img src="./src/img/linesUnder.png" alt="linesUnder"></div>
         </div>
-        <div class="teemad">
+        <div class="teemad hidden">
             <div class="teemadHn">
                 <div class="teemadText">
                     <p>TEEMAD</p>
@@ -68,16 +69,16 @@
                     <img src="./src/img/ninjaStar.png" alt="ninjaStar"><img src="./src/img/ninjaStar.png"
                         alt="ninjaStar"><img src="./src/img/ninjaStar.png" alt="ninjaStar">
                 </div>
-                <a href="#" class="graafika"></a>
+                <a href="pages/kolmasleht.html#graafika" class="graafika"></a>
             </div>
-            <div class="teemad quad">
-                <a href="#" class="kursed w"></a>
-                <a href="#" class="tehisintellekt"></a>
-                <a href="#" class="math"></a>
-                <a href="#" class="doc w"></a>
+            <div class="teemad quad hidden">
+                <a href="pages/teineleht.html#kursused" class="kursed w"></a>
+                <a href="pages/teineleht.html#tehisintellekt" class="tehisintellekt"></a>
+                <a href="pages/teineleht.html#math" class="math"></a>
+                <a href="pages/teineleht.html#dokumentatsioonid" class="doc w"></a>
             </div>
         </div>
-        <div class="decorBr">
+        <div class="decorBr hidden">
             <img src="./src/img/shtrihcode2.png" alt="code2" class="brCode">
             <img src="./src/img/shtrihcode3.png" alt="code3" class="brCode2">
         </div>
@@ -91,10 +92,10 @@
                 programmeerimisega.</p>
             <img src="./src/img/beautyBr.png" alt="Br" class="beautyBr">
             <p>Roadmap.sh pakub õppekaarte programmeerimise eri suundade õppimiseks. </p>
-            <a href="#" class="roadmap">roadmap.sh</a>
+            <a href="https://roadmap.sh/" class="roadmap">järgi linki</a>
             <img src="./src/img/beautyBr.png" alt="Br" class="beautyBr">
             <p>GitHub Topics on jaotis, kus saab leida temaatilisi projektide, teekide ja kogumikke</p>
-            <a href="#" class="roadmap">järgi linki</a>
+            <a href="https://github.com/topics" class="roadmap">järgi linki</a>
         </div>
         <div><img src="./src/img/diagram.png" alt="diagram"></div>
     </footer>
