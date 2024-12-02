@@ -98,17 +98,17 @@ p {
 
 .card-container {
     width: 100%;
-    /* Full width of the container */
+    /* Konteineri täielik laius */
     display: grid;
-    /* Use grid layout */
+    /* Kasuta ruudustiku paigutust */
     grid-template-columns: repeat(2, 1fr);
-    /* Static 4 columns */
+    /* Statsionnaarne 4 veergu */
     gap: 2vw;
-    /* Space between cards */
+    /* Kaartide vahe */
     justify-content: center;
-    /* Center the grid in the container */
+    /* Paiguta ruudustik konteineri keskele */
     padding: 2vw;
-    /* Padding around the grid */
+    /* Ruudustiku ümber sisemine vahe */
 }
 
 .skull {
@@ -130,28 +130,28 @@ p {
     justify-content: space-around;
     gap: 2vw;
     flex-wrap: wrap;
-    /* Wrap cards if the screen is smaller */
+    /* Mähkige kaardid kui ekraan on väiksem */
     margin-top: 2vw;
 }
 
 .card3 {
     background-color: transparent;
-    /* Transparent background */
+    /* Läbipaistev taust */
     text-align: left;
     font-family: "Jura", sans-serif;
     color: #E27B57;
     padding: 1.5vw;
     width: 25vw;
-    /* Adjust the width of the card */
+    /* Kohanda kaardi laiust */
     color: #FFF0EA;
-    /* Text color */
+    /* Teksti värv */
 }
 
 .card3 h3 {
     font-size: 2vw;
     margin-bottom: 1vw;
     color: #E27B57;
-    /* Title color */
+    /* Peakirja värv */
     font-family: "Jura", sans-serif;
 }
 
@@ -189,7 +189,7 @@ p {
 }
 
 * {
-    /* border: 5px solid red; */
+    /* 5px paksune punane täisjooneline ääris ; */
 }
 
 img {

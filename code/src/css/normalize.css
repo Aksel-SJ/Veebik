@@ -1,11 +1,11 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
-/* Document
+/* Dokument
    ========================================================================== */
 
 /**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 1. Parandab rea kõrguse kõikides brauserites.
+ * 2. Väldib kirjasuuruse muutumist IOS seadmete oorientatsiooni vahetamisel.
  */
 
 html {
@@ -15,11 +15,11 @@ html {
     /* 2 */
 }
 
-/* Sections
+/* Sektsioonid
      ========================================================================== */
 
 /**
-   * Remove the margin in all browsers.
+   * Eemaldab vaikimisi marginaali kõikides brauserites.
    */
 
 body {
@@ -27,7 +27,7 @@ body {
 }
 
 /**
-   * Render the `main` element consistently in IE.
+   * Kuvab  `main` elemendi ühtemoodi IE-s .
    */
 
 main {
@@ -35,8 +35,8 @@ main {
 }
 
 /**
-   * Correct the font size and margin on `h1` elements within `section` and
-   * `article` contexts in Chrome, Firefox, and Safari.
+   * Parandab `h1` elementide kirjasuurust ja marginaali `section` ja
+   * `article` kontekstis Chrome, Firefox, ja Safari brauserites.
    */
 
 h1 {
@@ -44,12 +44,12 @@ h1 {
     margin: 0.67em 0;
 }
 
-/* Grouping content
+/* Rühmitatud sisu
      ========================================================================== */
 
 /**
-   * 1. Add the correct box sizing in Firefox.
-   * 2. Show the overflow in Edge and IE.
+   * 1. Lisab õige box-sizing omaduse FireFoxis.
+   * 2. Kuvab ülejääva sisu Edge´is ja IE-s.
    */
 
 hr {
@@ -62,8 +62,8 @@ hr {
 }
 
 /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
+   * 1. Parandab kirjasuuruse pärandamise ja sskaleerimise kõikides brauserites.
+   * 2. Parandab ebatavalise ´em´ kirjasuuruse kõikides brauserites.
    */
 
 pre {
@@ -73,11 +73,11 @@ pre {
     /* 2 */
 }
 
-/* Text-level semantics
+/* Teksti taseme semantika
      ========================================================================== */
 
 /**
-   * Remove the gray background on active links in IE 10.
+   * Eemaldab halli taustavärvi aktiivselt linkidelt IE 10-s.
    */
 
 a {
@@ -85,8 +85,8 @@ a {
 }
 
 /**
-   * 1. Remove the bottom border in Chrome 57-
-   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   * 1. Eemaldab alumise joone Chrome 57- versioonides
+   * 2. Lisab korrektse teksti dekoreerimise Chrome, Edge, Opera ja Safari brauserites.
    */
 
 abbr[title] {
@@ -99,7 +99,7 @@ abbr[title] {
 }
 
 /**
-   * Add the correct font weight in Chrome, Edge, and Safari.
+   * Lisab õige kirja kaalu Chrome, Edge ja Safari brauserites.
    */
 
 b,
@@ -108,8 +108,8 @@ strong {
 }
 
 /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
+   * 1. Parandab kirjasuuruse pärandamise ja skaleerimise kõikides brauserites.
+   * 2. Parandab ebatavalise ´em´ kirjasuuruse kõikides brauserites.
    */
 
 code,
@@ -122,7 +122,7 @@ samp {
 }
 
 /**
-   * Add the correct font size in all browsers.
+   * Lisab korrektse kirjasuuruse kõikides brauserites.
    */
 
 small {
@@ -130,8 +130,8 @@ small {
 }
 
 /**
-   * Prevent `sub` and `sup` elements from affecting the line height in
-   * all browsers.
+   * Väldib `sub` ja `sup` elementide mõju rea kõrgusele 
+   * kõikides brauserites.
    */
 
 sub,
@@ -150,23 +150,23 @@ sup {
     top: -0.5em;
 }
 
-/* Embedded content
+/* Manustatud sisu
      ========================================================================== */
 
 /**
-   * Remove the border on images inside links in IE 10.
+   * Eemaldab piltide ümbruse joone linkide sees IE 10-s.
    */
 
 img {
     border-style: none;
 }
 
-/* Forms
+/* Vormid
      ========================================================================== */
 
 /**
-   * 1. Change the font styles in all browsers.
-   * 2. Remove the margin in Firefox and Safari.
+   * 1. Muudab kirjatüübi kõikides brauserites
+   * 2. Eemaldab marginaali Firefoxis ja Safaris.
    */
 
 button,
@@ -185,8 +185,8 @@ textarea {
 }
 
 /**
-   * Show the overflow in IE.
-   * 1. Show the overflow in Edge.
+   * Kuvab ülejääva sisu IE-s.
+   * 1. Kuvab ülejääva sisu Edge´is.
    */
 
 button,
@@ -196,8 +196,8 @@ input {
 }
 
 /**
-   * Remove the inheritance of text transform in Edge, Firefox, and IE.
-   * 1. Remove the inheritance of text transform in Firefox.
+   * Eemaldab teksti teisendamise pärandamise Edge, Firefox ja IE brauserites
+   * 1. Eemaldab teksti teisendamise pärandamise Firefoxis.
    */
 
 button,
@@ -207,7 +207,7 @@ select {
 }
 
 /**
-   * Correct the inability to style clickable types in iOS and Safari.
+   * Parandab klõpsatavate elementide stiilimise võimaluse IOS-is ja Safaris.
    */
 
 button,
@@ -218,7 +218,7 @@ button,
 }
 
 /**
-   * Remove the inner border and padding in Firefox.
+   * Eemaldab sisemise ääre ja polstri Firefoxis.
    */
 
 button::-moz-focus-inner,
@@ -230,7 +230,7 @@ button::-moz-focus-inner,
 }
 
 /**
-   * Restore the focus styles unset by the previous rule.
+   * Taastab eelneva reegliga eemaldatud fookusstilid
    */
 
 button:-moz-focusring,
@@ -241,7 +241,7 @@ button:-moz-focusring,
 }
 
 /**
-   * Correct the padding in Firefox.
+   * Parandab polstrit Firefoxis.
    */
 
 fieldset {
@@ -249,10 +249,10 @@ fieldset {
 }
 
 /**
-   * 1. Correct the text wrapping in Edge and IE.
-   * 2. Correct the color inheritance from `fieldset` elements in IE.
-   * 3. Remove the padding so developers are not caught out when they zero out
-   *    `fieldset` elements in all browsers.
+   * 1. Parandab teksti murdmise Edge´is ja IE-s.
+   * 2. Parandab värvi päritavuse ´fieldset´-elementidelt IE-s.
+   * 3. Eemaldab polstri, et arendajad ei satuks raskustesse, kui nad tahavad
+   *    kõikides brauserites ´fieldset´-elementide polstrit nullida.
    */
 
 legend {
@@ -271,7 +271,7 @@ legend {
 }
 
 /**
-   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   * Lisab õige vertikaalse joondamise Chrome´is, Firefoxis ja Operas.
    */
 
 progress {
@@ -279,7 +279,7 @@ progress {
 }
 
 /**
-   * Remove the default vertical scrollbar in IE 10+.
+   * Eemaldab vaikevertikaalse kerimisriba IE 10+.
    */
 
 textarea {
@@ -287,8 +287,8 @@ textarea {
 }
 
 /**
-   * 1. Add the correct box sizing in IE 10.
-   * 2. Remove the padding in IE 10.
+   * 1. lISAB ÕIGE KASTI SUURUSE IE 10-s.
+   * 2. Eemaldab polstri IE 10-s.
    */
 
 [type="checkbox"],
@@ -300,7 +300,7 @@ textarea {
 }
 
 /**
-   * Correct the cursor style of increment and decrement buttons in Chrome.
+   * Parandab kursori stiili suurendamis- ja vähendamisnuppudel Chrome´is.
    */
 
 [type="number"]::-webkit-inner-spin-button,
@@ -309,8 +309,8 @@ textarea {
 }
 
 /**
-   * 1. Correct the odd appearance in Chrome and Safari.
-   * 2. Correct the outline style in Safari.
+   * 1. Parandab veidra välimuse Chrome´is ja Safaris.
+   * 2. Parandab kontuurjoone stiili Safaris.
    */
 
 [type="search"] {
@@ -321,7 +321,7 @@ textarea {
 }
 
 /**
-   * Remove the inner padding in Chrome and Safari on macOS.
+   * Eemaldab sisemise polstri Chrome´is ja Safaris macOS-is.
    */
 
 [type="search"]::-webkit-search-decoration {
@@ -329,8 +329,8 @@ textarea {
 }
 
 /**
-   * 1. Correct the inability to style clickable types in iOS and Safari.
-   * 2. Change font properties to `inherit` in Safari.
+   * 1. Parandab klõpsatavate elementide stiilimise võimatuse iOS-is ja Safaris.
+   * 2. Muudab fondiomadused Safari puhul ´inherit´.
    */
 
 ::-webkit-file-upload-button {
@@ -340,11 +340,11 @@ textarea {
     /* 2 */
 }
 
-/* Interactive
+/* Interaktiivsed elemendid
      ========================================================================== */
 
 /*
-   * Add the correct display in Edge, IE 10+, and Firefox.
+   * Lisab õige kuvamise Edge´is, IE 10+ ja Firefoxis.
    */
 
 details {
@@ -352,18 +352,18 @@ details {
 }
 
 /*
-   * Add the correct display in all browsers.
+   * Lisab õige kuvamise kõikides brauserites.
    */
 
 summary {
     display: list-item;
 }
 
-/* Misc
+/* Mitmesugused
      ========================================================================== */
 
 /**
-   * Add the correct display in IE 10+.
+   * lisab õige kuvamise IE 10+.
    */
 
 template {
@@ -371,7 +371,7 @@ template {
 }
 
 /**
-   * Add the correct display in IE 10.
+   * Lisab õige kuvamise IE 10-s.
    */
 
 [hidden] {
