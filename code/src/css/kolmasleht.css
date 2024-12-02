@@ -1,39 +1,3 @@
-<<<<<<< HEAD
-body {
-    background-image: url(../img/background.png);
-    background-size: cover;
-}
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
-
-h1 {
-    font-family: 'Zen Dots', cursive;
-    font-size: 35px;
-    text-align: right;
-    color: #FEF3D5;
-}
-
-.outline-text {
-    font-family: 'Zen Dots', cursive;
-    font-size: 35px;
-    color: transparent;
-    -webkit-text-stroke: 2px #fff;
-    text-transform: uppercase;
-    text-align: right;
-}
-
-nav {
-
-}
-
-nav>a {
-    color: #FEF3D5;
-    padding: 0 0.5vw;
-    font-family: "Jura", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-=======
 a,
 p,
 span,
@@ -78,7 +42,6 @@ header {
     align-items: center;
     display: flex;
     justify-content: end;
->>>>>>> mustand
 }
 
 nav {
@@ -89,11 +52,6 @@ nav {
     align-items: center;
     padding: 1vw 0vw 1vw 4vw;
     border-radius: .3vw;
-<<<<<<< HEAD
-    background-image: url(../img/nav.Outline2.png);
-    background-size: 100vw 5vw;
-}
-=======
     background-image: url(../img/navOutline3.png);
     background-size: 100vw 5vw;
 }
@@ -410,4 +368,3 @@ nav>a {
 img {
     pointer-events: none;
 }
->>>>>>> mustand

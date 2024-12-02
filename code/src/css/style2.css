@@ -98,8 +98,6 @@ body {
     margin: 0 -1vw 0 0;
 }
 
-<<<<<<< HEAD
-=======
 .coursesHeader h1 {
     font-family: "Zen Dots", sans-serif;
     font-weight: 400;
@@ -109,7 +107,6 @@ body {
 
 }
 
->>>>>>> mustand
 .logo {
     width: 15vw;
 }
@@ -142,33 +139,23 @@ body {
 }
 
 .navBtn {
-<<<<<<< HEAD
-=======
     text-decoration: none;
->>>>>>> mustand
     background-color: #0F1A27;
     color: #E27B57;
     width: 8vw;
     height: 3vw;
-<<<<<<< HEAD
-=======
     border-radius: 0.5vw;
->>>>>>> mustand
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: "Zen Dots", sans-serif;
     font-weight: 400;
-<<<<<<< HEAD
-
-=======
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navBtn:hover {
     background-color: #FFF0EA;
     color: #0F1A27;
->>>>>>> mustand
 }
 
 .card2 .logo {
@@ -190,23 +177,14 @@ body {
 
 
 .card2 {
-<<<<<<< HEAD
-    background-color: hsla(0, 0%, 0%, 0.3);
-=======
     background-color: hsla(0, 0%, 0%, 0);
->>>>>>> mustand
     padding: .3vw;
     font-family: "Jura", sans-serif;
     color: #E27B57;
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-    justify-content: center;
-    align-items: start;
-=======
     justify-content: space-between;
     align-items: center;
->>>>>>> mustand
     text-align: center;
     overflow: hidden;
     height: 40vw;
@@ -215,8 +193,6 @@ body {
     /* border: 1px solid red; */
 }
 
-<<<<<<< HEAD
-=======
 .card-content2 {
     flex: 1; /* Allow the content area to grow to fill space */
     display: flex;
@@ -229,7 +205,6 @@ body {
 
 
 
->>>>>>> mustand
 .card2Outer {
     position: absolute;
     width: 20vw;
@@ -244,18 +219,6 @@ body {
 
 
 .card-content2 h3 {
-<<<<<<< HEAD
-    font-size: 1.2vw;
-    margin-bottom: 1vw;
-    color: #E27B57;
-}
-
-.card-content2 p {
-    font-size: 0.9vw;
-    line-height: 1.5;
-    margin-bottom: 1.5vw;
-    color: #E27B57;
-=======
     font-size: 2vw;
     margin-bottom: 1vw;
     color: #E27B57;
@@ -269,7 +232,6 @@ body {
     color: #E27B57;
     text-align: left;
     padding: 2vw;
->>>>>>> mustand
 }
 
 /* Кнопка */
@@ -277,13 +239,6 @@ body {
     text-decoration: none;
     background-color: #E27B57;
     color: #0F1A27;
-<<<<<<< HEAD
-    padding: 0.5vw 1vw;
-    border-radius: 0.5vw;
-    font-size: 1vw;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
-=======
     padding: 0.7vw 2vw;
     border-radius: 0.5vw;
     font-family: "Zen Dots", sans-serif;
@@ -291,17 +246,12 @@ body {
     margin-top: auto; /* Push the button to the bottom of the card */
     align-self: center; /* Center the button horizontally */
     transition: background-color 0.3s ease, color 0.3s ease;
->>>>>>> mustand
 }
 
 .card-button2:hover {
     background-color: #FFF0EA;
     color: #E27B57;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> mustand
 @media (max-width: 768px) {
     .course-grid {
         grid-template-columns: 1fr;
