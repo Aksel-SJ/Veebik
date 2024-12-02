@@ -18,7 +18,7 @@ body {
     background-size: cover;
     margin: 0;
     overflow-x: hidden;
-    background-repeat: no-repeat; /* Prevent horizontal scrolling */
+    background-repeat: no-repeat; /* Et vältida horisontaalset kerimist */
 }
 
 .tehisintellekt {
@@ -27,14 +27,14 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
-    width: 100%; /* Ensure the section uses the full width of the viewport */
-    margin: 0 auto; /* Centers the content */
+    width: 100%; /* Veendumaks, et sektsioon kasutaks kogu vaateava laiust */
+    margin: 0 auto; /* Paigutab sisu keskele */
     padding: 0;
     margin-top: -10vw;
 }
 
 .maingraafika {
-    overflow: hidden; /* Ensures content stays within the section */
+    overflow: hidden; /* Tagab selle, et sisu jääb jaotisse */
 }
 
 header {
@@ -210,9 +210,9 @@ nav>a {
     font-family: "Zen Dots", sans-serif;
     font-weight: 400;
     padding: 0.5vw 1.5vw;
-    position: absolute; /* Allows the button to be positioned at a specific location */
-    bottom: 2vw; /* Moves the button to the bottom of the card */
-    left: 30%; /* Centers the button horizontally */
+    position: absolute; /* Võimaldab selle, et nupu saaks paigutada kindlasse asukohta */
+    bottom: 2vw; /* Liigutab nupu alumisele osale */
+    left: 30%; /* Paigutab nupu keskele horisontaalselt */
     transform: translateX(-50%);
     transition: background-color 0.3s ease;
 
@@ -362,7 +362,7 @@ nav>a {
 }
 
 * {
-    /* border: 5px solid red; */
+    /* äär: 5 pikslit ühevärvilist punast; */
 }
 
 img {
