@@ -296,14 +296,26 @@ nav>a {
     justify-content: space-around;
 }
 
-.cardInfo * {
+.cardInfo h3 {
     margin-left: 2vw;
+    margin-bottom: -1vw;
+    font-size: 2vw;
     color: #320303;
     font-family: "Jura", sans-serif;
     font-weight: 700;
 }
 
+.cardInfo p {
+    margin-left: 2vw;
+    font-size: 1vw;
+    color: #320303;
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+}
+
+
 .navBtn {
+    margin-left: 2vw;
     text-decoration: none;
     background-color: #320303;
     color: #FDF2D4;
@@ -321,4 +333,20 @@ nav>a {
 .navBtn:hover {
     background-color: #DBA101;
     color: #0F1A27;
+}
+
+.end {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: -30vw;
+    display: flex;
+}
+
+* {
+    /* border: 5px solid red; */
+}
+
+img {
+    pointer-events: none;
 }
