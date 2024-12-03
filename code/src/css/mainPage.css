@@ -64,8 +64,29 @@ p {
 }
 
 .shadow {
-  color: #00000000;
-  -webkit-text-stroke: .035vw #73AA9C;
+  font-size: 40px;
+  font-family: 'Zen Dots', sans-serif;
+  fill: none;
+  stroke: #7CB39E;
+  stroke-width: 1;
+  transform: translate(20px, 30px);
+}
+.shadow1 {
+  font-size: 40px;
+  font-family: 'Zen Dots', sans-serif;
+  fill: none;
+  stroke: #7CB39E;
+  stroke-width: 1;
+  transform: translate(20px, 75px);
+}
+
+.shadow2 {
+  font-size: 30px;
+  font-family: 'Zen Dots', sans-serif;
+  fill: none;
+  stroke: #7CB39E;
+  stroke-width: 1;
+  transform: translate(23px, 30px);
 }
 
 .shtrihcode {
@@ -79,7 +100,6 @@ p {
   color: #7CB39E;
   padding: 0 0.5vw;
   font-family: "Jura", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
@@ -241,7 +261,6 @@ footer img {
   color: #7CB39E;
   padding: 0 0.5vw;
   font-family: "Jura", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
   font-size: 1.3vw;

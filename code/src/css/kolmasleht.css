@@ -12,6 +12,7 @@ html {
 }
 
 
+
 body {
     background-color: #000000;
     background-image: url(../img/background3.png);
@@ -61,7 +62,6 @@ nav>a {
     color: #FEF3D5;
     padding: 0 0.5vw;
     font-family: "Jura", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
 }
@@ -98,8 +98,12 @@ nav>a {
   }
 
   .shadow {
-    color: #00000000;
-    -webkit-text-stroke: .035vw #FDF2D4;
+    font-size: 35px;
+    font-family: 'Zen Dots', sans-serif;
+    fill: none;
+    stroke: #FDF2D4;
+    stroke-width: 1;
+    transform: translate(55px, 60px);
   }
 
   .mainText img {

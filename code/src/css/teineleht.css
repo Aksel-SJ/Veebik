@@ -45,7 +45,6 @@ nav>a {
     color: #E27B57;
     padding: 0 0.5vw;
     font-family: "Jura", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
 }
@@ -56,24 +55,6 @@ p {
     margin: 0
 }
 
-.mainText {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    padding: 3vw 0 0 0
-}
-
-.mainText h1 {
-    font-family: "Zen Dots", sans-serif;
-    font-weight: 400;
-    font-size: 3.4vw;
-    margin: 0;
-    color: #E27B57;
-
-}
 
 .shtrihcode {
     width: 40vw;
